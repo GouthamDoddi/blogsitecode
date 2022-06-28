@@ -15,7 +15,7 @@ services:
       - DB_HOST=ec2-18-215-99-63.compute-1.amazonaws.com
       - DB_NAME=d1qoulkt024fo0
       - DB_USER=eyutqxfmgrdeqr
-      - DB_PASS=c7fd7baea32d716e9bd61369155d3df057dd9acd4ea342b82b8310ee4130386e
+      - DB_PASS=**
     depends_on:
       - db
 
@@ -24,4 +24,4 @@ services:
     environment:
       - POSTGRES_DB=d1qoulkt024fo0
       - POSTGRES_USER=eyutqxfmgrdeqr
-      - POSTGRES_PASSWORD=c7fd7baea32d716e9bd61369155d3df057dd9acd4ea342b82b8310ee4130386e
+      - POSTGRES_PASSWORD=**
