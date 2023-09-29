@@ -86,8 +86,13 @@ WSGI_APPLICATION = 'not_first_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'URL': 'postgres://ckqbutak:evfGT-UTFDjoq3GPrFPUqVo6x3VV2Gl9@tiny.db.elephantsql.com/ckqbutak',
+        'NAME': 'ckqbutak',
+        'USER': 'ckqbutak',
+        'PASSWORD': 'evfGT-UTFDjoq3GPrFPUqVo6x3VV2Gl9',
+        'HOST': 'tiny.db.elephantsql.com',
+        'PORT': 5432,
     }
 }
 
